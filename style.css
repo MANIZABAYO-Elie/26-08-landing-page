@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@ 400,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color: white;
+   text-align: center;
+   justify-content: center;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+}
+
+h1{
+   margin-bottom: 20px;
+}
+
+#introduction {
+    display:flex;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    height: 500px;   
+}
+ .community-section{
+   text-align: center;
+   align-items: start;
+   justify-content: center;
+}
+
+.container{
+    display: flex;
+    background-image: url(./images/bg-hero-desktop.svg);
+    height: 700px;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ .logo{
+    width: 100px;
+    margin-left: 200px;
+}
+
+ .card-image{
+    width: 300px;
+}
+
+.mission{
+    gap:50px;
+    display: flex;
+    height: 900px;
+    width: 100vh;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+}
+
+.target{
+   text-align: start;
+   justify-content: center;
+   align-items: center;
+   margin-left: -200px
+}
+
+.nav-bar{
+   display: flex;
+   margin: auto;
+}
+
+.try-button{
+   height: 28px;
+   width: 80px;
+   border-radius: 20px;
+   color: black;
+   margin-left: 900px;
+   
+}
+
+.start-button{
+   width: 50%;
+   height: 35px;
+   border-radius: 20px;
+   background-color:  hsl(322, 100%, 66%);
+   margin-top: 30px;
+   color: white ;
+   border: 1px solid white;
+ }
+
+ .grow-together{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    height: 300px;
+    box-shadow: 5px 5px 10px hsl(208, 11%, 55%);
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    gap: 40px;
+    padding-left: 20px;
+    margin:auto;
+    margin-top :30px;
+}
+
+.grow-together-intro{
+   text-align: center;
+   text-align: start;
+}
+
+ #main-section{
+   background-color: white;
+   height: 1200px;
+}
+
+ .getting-started{
+   height: 150px;
+   width: 50%;
+   box-shadow: 5px 5px 10px hsl(208, 11%, 55%);
+   margin: auto;
+   
+}
+
+#btn{
+   padding-top: 70px;
+}
+
+ .footer{
+   background-color:  hsl(192, 100%, 9%);
+   height: 150px;
+   width: 100%;
+}
